@@ -1,0 +1,9 @@
+:root {
+    --background-color: #181818;
+    --secondary-background-color: #1f1f1f;
+    --text-color: white;
+    --text-hint-color: rgb(130, 130, 130);
+    --input-border: 1px rgb(60 60 60) solid;
+    --input-border-focused: 1px rgb(40 95 140) solid;
+    --submit-button-color: rgb(50 140 220);
+}

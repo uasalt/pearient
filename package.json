@@ -1,0 +1,19 @@
+{
+  "name": "pearient",
+  "version": "0.0.1",
+  "description": "Perient - Client special for elemsocial",
+  "license": "ISC",
+  "author": "uasalt",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "electron": "^40.6.1",
+    "electron-builder": "^26.8.1",
+    "file-type": "^21.3.0",
+    "msgpack-lite": "^0.1.26"
+  }
+}

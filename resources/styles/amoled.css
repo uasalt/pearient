@@ -1,0 +1,29 @@
+:root {
+    --background-color: rgb(0, 0, 0);
+    --secondary-background-color: rgb(15, 15, 15);
+    --BLOCK_COLOR_LITE: rgba(20, 20, 20, 0.7);
+    --BLOCK_COLOR_LITE_TEXT: rgb(189 189 190);
+    --BLOCK_BLOCK_COLOR: rgb(34, 34, 34);
+    --BLOCK_BLOCK_COLOR_LITE: rgb(58 58 60 / 60%);
+    --BLOCK_SHADOW: 0px 1px 2px -1px rgb(0 0 0 / 65%);
+
+    --input-border: rgb(35, 35, 35);
+
+    --BTN_TEXT_COLOR: #dbdbdb;
+    --button-backgoround: rgb(35 35 35);
+    --textarea-bg: rgb(35 35 35);
+    --BTN_CLOSE_COLOR: rgb(207 92 92 / 50%);
+
+    --INTERACTION_BTN_COLOR: rgb(40 40 40 / 70%);
+    --INTERACTION_BTN_TEXT_COLOR: rgb(255 255 255 / 70%);
+
+    --text-color: rgb(255 255 255);
+    --text-hint-color: rgb(233 233 233);
+
+    --D_OR_P_COLOR: rgb(191 191 191);
+
+    --LG_AIR_COLOR: rgb(55 55 55 / 50%);
+    --LG_AIR_BORDER_COLOR: rgb(63 63 63 / 47%);
+    --LG_AIR_TEXT_COLOR: #fff;
+    --LG_AIR_BLOCK_COLOR: rgb(0 0 0 / 20%);
+}

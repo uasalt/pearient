@@ -1,0 +1,55 @@
+:root {
+    --background-color: rgb(20, 20, 20);
+    --secondary-background-color: rgb(30, 30, 30);
+    --BLOCK_COLOR_LITE_TEXT: rgb(189 189 190);
+    --text-color: rgb(233 233 233);
+    --text-hint-color: rgb(145 145 145 / 70%);
+    --input-border: 1px rgb(60 60 60) solid;
+    --button-backgoround: rgb(40, 40, 40);
+    --textarea-bg: rgb(40, 40, 40);
+    --BLOCK_COLOR_LITE: rgba(20, 20, 20, 0.7);
+    --BLOCK_COLOR_LITE_TEXT: rgb(189 189 190);
+    --BLOCK_BLOCK_COLOR: rgb(34, 34, 34);
+    --BLOCK_BLOCK_COLOR_LITE: rgb(58 58 60 / 60%);
+    --BLOCK_SHADOW: 0px 1px 2px -1px rgb(0 0 0 / 65%);
+    --BTN_TEXT_COLOR: #dbdbdb;
+    --button-backgoround: rgb(35 35 35);
+    --textarea-bg: rgb(35 35 35);
+    --BTN_CLOSE_COLOR: rgb(207 92 92 / 50%);
+}
+
+:root {
+    --BODY_COLOR: rgb(21 21 21);
+    --AIR_COLOR: rgb(43 43 43 / 85%);
+    --AIR_BLOCK_COLOR: rgb(143 143 143 / 20%);
+    --AIR_SHADOW: 0px 3px 10px -3px rgb(0 0 0 / 50%);
+
+    --AIR_CONTEXT_SHADOW_COLOR_START: rgb(53 51 61 / 0%);
+    --AIR_CONTEXT_SHADOW_COLOR_END: rgb(6 6 8 / 30%);
+
+    --BLOCK_COLOR: rgb(37 37 37);
+    --BLOCK_COLOR_LITE: rgb(37 37 37 / 60%);
+    --BLOCK_COLOR_LITE_TEXT: rgb(189 189 190);
+    --BLOCK_BLOCK_COLOR: rgb(59 59 59);
+    --BLOCK_BLOCK_COLOR_LITE: rgb(58 58 60 / 60%);
+    --BLOCK_SHADOW: 0px 1px 2px -1px rgb(0 0 0 / 65%);
+
+    --INPUT_COLOR: rgb(55 55 55);
+
+    --BTN_TEXT_COLOR: #dbdbdb;
+    --BTN_BACKGROUND: rgb(55 55 55);
+    --BTN_CLOSE_COLOR: rgb(207 92 92 / 50%);
+
+    --INTERACTION_BTN_COLOR: rgb(61 61 61 / 70%);
+    --INTERACTION_BTN_TEXT_COLOR: rgb(255 255 255 / 70%);
+
+    --TITLE_COLOR: rgb(255 255 255);
+    --TEXT_COLOR: rgb(233 233 233);
+
+    --D_OR_P_COLOR: rgb(191 191 191);
+
+    --LG_AIR_COLOR: rgb(55 55 55 / 50%);
+    --LG_AIR_BORDER_COLOR: rgb(63 63 63 / 47%);
+    --LG_AIR_TEXT_COLOR: #fff;
+    --LG_AIR_BLOCK_COLOR: rgb(0 0 0 / 20%);
+}

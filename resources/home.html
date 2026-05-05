@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/element/AmoledGoldStyle.css">
+</head>
+<body>
+
+<header>
+    <img src="./assets/DarkLogo.svg">
+    <div class="container">
+        <input type="text" id="search" placeholder="Поиск">
+        <div class="wallet">
+            <div class="coin">E</div>
+            <div class="count">0.000</div>
+        </div>
+    </div>
+    <div class="loading container avatar"></div>
+</header>
+
+<div class="Content">
+    <div class="navbar">
+        <button><svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 0.407349L0.231564 4.07817C-0.00140642 4.22643 -0.0700828 4.53547 0.0781713 4.76844C0.226425 5.00141 0.535469 5.07009 0.76844 4.92183L6 1.59266L11.2316 4.92183C11.4645 5.07009 11.7736 5.00141 11.9218 4.76844C12.0701 4.53547 12.0014 4.22643 11.7684 4.07817L6 0.407349Z"></path><path d="M6.00001 2.91037L1.46834 5.74266L2.05249 11H4.50001V6.49999H7.50001V11H9.94753L10.5317 5.74266L6.00001 2.91037Z"></path></svg> Главная</button>
+        <button><svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.93194 1C6.60896 0.999891 6.34454 1.25923 6.33935 1.58356L6.24899 7.23544C5.77769 7.02843 5.2053 6.95485 4.61335 7.0593C3.27025 7.29627 2.33505 8.35998 2.52451 9.43516C2.71396 10.5103 3.95635 11.1898 5.29944 10.9528C6.38795 10.7608 7.20854 10.0257 7.37967 9.18162C7.39592 9.12906 7.40507 9.07334 7.40599 9.01556L7.40625 8.99936C7.41322 8.92128 7.41457 8.84255 7.41002 8.76351L7.49132 3.67845C7.89622 3.96941 8.38763 4.1629 8.90746 4.1629C9.23478 4.1629 9.50012 3.89738 9.50012 3.56985C9.50012 3.24232 9.23478 2.97681 8.90746 2.97681C8.60633 2.97681 8.2556 2.82018 7.96836 2.53276C7.68113 2.24534 7.5246 1.89437 7.5246 1.59304C7.5246 1.26552 7.25926 1 6.93194 1Z"></path></svg> Музыка</button>
+        <button><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 1.966a1 1 0 0 0-.9.564l-.23.47-.51.1a1 1 0 0 0-.56 1.71l.38.36-.09.51a1 1 0 0 0 1.45 1.06L12 6.5l.46.24a1 1 0 0 0 .47.11 1 1 0 0 0 .59-.2 1 1 0 0 0 .39-1l-.09-.51.38-.36a1 1 0 0 0-.56-1.71L13.13 3l-.23-.47a1 1 0 0 0-.9-.564zM9 9a1 1 0 0 0-1 1v5H3a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1v-7a1 1 0 0 0-1-1h-5v-3a1 1 0 0 0-1-1H9z"></path></svg> Зал славы</button>
+        <button><svg viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.95882 5.98256C6.00358 5.31152 6.45565 4.82638 7.08228 4.82638C7.72233 4.82638 8.15202 5.30246 8.1744 5.98256H5.95882Z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M4.16667 0.5C2.14162 0.5 0.5 2.16294 0.5 4.21428V7.78571C0.5 9.83706 2.14162 11.5 4.16667 11.5H7.83333C9.85838 11.5 11.5 9.83706 11.5 7.78572V4.21429C11.5 2.16294 9.85838 0.5 7.83333 0.5H4.16667ZM2.92415 8.25412C2.92415 8.62137 3.20614 8.90702 3.56868 8.90702C3.92676 8.90702 4.20874 8.62137 4.20874 8.25412C4.20874 7.89139 3.92676 7.60121 3.56868 7.60121C3.20614 7.60121 2.92415 7.89139 2.92415 8.25412ZM9.22176 7.41985H8.17887C8.05802 7.81885 7.66414 8.08182 7.14494 8.08182C6.41536 8.08182 5.94987 7.56494 5.94987 6.79415V6.72614H9.26652V6.35889C9.26652 4.89893 8.42505 3.95131 7.0778 3.95131C5.70817 3.95131 4.83984 4.95333 4.83984 6.47224C4.83984 8.00474 5.69922 8.95236 7.12256 8.95236C8.24601 8.95236 9.07853 8.32666 9.22176 7.41985Z"></path></svg> EPACK</button>
+    </div>
+    <div class="page">
+        <div class="scroll">
+            <div class="online">
+                <!-- <div class="title">Сейчас онлайн</div> -->
+            </div>
+            <div class="createPost">
+                <textarea placeholder="Текст поста..." maxlength="30000" rows="1"></textarea>
+                <div class="buttons">
+                    <div class="left">
+                        <button id="addFile"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-paperclip-icon lucide-paperclip"><path d="m16 6-8.414 8.586a2 2 0 0 0 2.829 2.829l8.414-8.586a4 4 0 1 0-5.657-5.657l-8.379 8.551a6 6 0 1 0 8.485 8.485l8.379-8.551"/></svg></button>
+                        <button id="emoji"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-smile-icon lucide-smile"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/></svg></button>
+                    </div>
+                    <div class="right">
+                        <button id="send">Опубликовать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slider feedSelector">
+                <button value="last">Последние</button>
+                <button value="rec">Рекомендации</button>
+                <button value="subscribe">Подписки</button>
+            </div>
+            <div class="feed"></div>
+            <div class="empty">Здесь пусто.</div>
+        </div>
+        <div class="information">
+            <div class="slider infoSelector">
+                <button value="client" active>Клиент</button>
+                <button value="social">Соц. сеть</button>
+            </div>
+            <div class="title">Обновление 1.0</div>
+            <div class="changelog"></div>
+        </div>
+    </div>
+</div>
+
+<script src="./js/hk.js"></script>
+<script src="./js/cache.js" type="module"></script>
+<script src="./js/main.js" type="module"></script>
+</body>
+</html>
